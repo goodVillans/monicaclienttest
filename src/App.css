@@ -1,0 +1,21 @@
+/* Styles for the main container of the application */
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  /* Style rules to adapt the page for smaller screens */
+  #root {
+    flex-direction: column; /* Change the flex direction to stack elements vertically */
+    padding: 20px; /* Add some space around the main container */
+  }
+}
+
+.audio-Player {
+  text-align: center;
+  align-items: center;
+}

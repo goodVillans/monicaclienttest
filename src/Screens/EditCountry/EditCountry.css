@@ -1,0 +1,61 @@
+.edit-country-container {
+  width: 800px;
+  margin: 100px;
+  padding: 100px;
+  border-radius: 10px;
+  background-color: #bbd9ed;
+  text-align: center;
+  position: relative;
+  border: #2bb948 solid 3px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.title {
+  font-size: 25px;
+  color: #2bb948;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.name-input {
+  height: 40px;
+  width: 50%;
+  border: 1px solid gray;
+  margin-bottom: 16px;
+  padding-left: 8px;
+  margin-right: 8px;
+}
+
+.description-input {
+  height: 40px;
+  width: 50%;
+  border: 1px solid gray;
+  margin-bottom: 16px;
+  padding-left: 8px;
+  margin-right: 8px;
+}
+
+.date-input {
+  height: 30px;
+  width: 50%;
+  font-size: 14px;
+  margin-bottom: 16px;
+  padding-left: 10px;
+}
+
+/* Welcome image style */
+.edit-image {
+  display: block;
+  width: 30%;
+  height: auto;
+  margin: auto;
+}
+
+button {
+  margin-top: 80px;
+}
+
+label {
+  text-align: center;
+}
